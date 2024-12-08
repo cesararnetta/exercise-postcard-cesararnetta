@@ -1,0 +1,69 @@
+body {
+	background: black;
+	font-family: "Roboto";
+}
+* {
+	border: 1px dashed red;
+	min-height: 10px;
+}
+.postcard {
+	background: white;
+	width: 400px;
+	height: 300px;
+	margin: auto;
+}
+.postcard-header {
+	display: flex;
+}
+.postcard-header img {
+	width: 50px;
+	height: 50px;
+	padding: 5px 10px;
+}
+.postcard-header h1 {
+	width: 100%;
+	margin: 0px;
+	padding: 5px 10px;
+}
+.postcard-body {
+	display: flex;
+}
+.body-left p:first-child {
+	margin-top: 0px;
+}
+.body-left p {
+	font-size: 10px;
+	text-align: justify;
+}
+.body-left,
+.body-right {
+	padding: 10px;
+}
+input {
+	font-size: 10px;
+	border: none;
+	border-bottom: 1px grey solid;
+	font-family: "Roboto";
+}
+.postcard-footer {
+	text-align: center;
+}
+.button-to-send {
+	background-color: grey;
+	padding: 5px 10px;
+	font-size: 10px;
+	border: inset;
+	border-radius: 10px;
+	max-width: 100px;
+	margin: auto;
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+a:hover {
+	color: green;
+}
+a:active {
+	color: yellow;
+}
